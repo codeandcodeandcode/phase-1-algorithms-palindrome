@@ -3,7 +3,14 @@ function isPalindrome(word) {
 }
 
 /* 
-  Add your pseudocode here
+   IS A PALINDROME FUNCTION TAKE A STRING INPUT
+   convert string into lowercase
+   FIND LENTH OF A STRING
+   LOOP THROUGH HALF OF THE STRING
+      CHECK IF FIRST AND LAST STRING IS NOT SAME
+       RETURN FALSE
+    ELSE
+    RETURN TRUE
 */
 
 /*
