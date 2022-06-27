@@ -1,6 +1,17 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  let string1=string.toLowerCase();
+  const len = string.length;
+
+ for (let i = 0; i < len / 2; i++) {
+
+    if (string[i] !== string[len - 1 - i]) {
+          return false;
+      }
+       
+  }
+  return true;
 }
+const pal=IsPalindrome
 
 /* 
    IS A PALINDROME FUNCTION TAKE A STRING INPUT
@@ -16,6 +27,9 @@ function isPalindrome(word) {
 /*
   Add written explanation of your solution here
 */
+
+
+
 
 // You can run `node index.js` to view these console logs
 if (require.main === module) {
